@@ -39,4 +39,6 @@ Durante su ejecución, este algoritmo llegó hasta el nodo 12 de la variación p
 ##Conclusión
 Como resultado de las pruebas realizadas, se observó que el algoritmo Negamax con poda Alfa-Beta mostró un rendimiento superior en términos de velocidad en comparación con el Negamax simple, un resultado predecible dado que el primero omite ciertas ramas durante su ejecución. Esto también se manifiesta en la cantidad de nodos generados y expandidos, que se redujo a la mitad con la poda Alfa-Beta.
 
-Por otro lado, el algoritmo Scout demostró ser superior al Negamax con poda, tal como se anticipaba. Esto se debe a que, según la teoría
+Por otro lado, el algoritmo Scout demostró ser superior al Negamax con poda, tal como se anticipaba. Esto se debe a que, según la teoría, Scout es más eficiente con árboles de juego que tienen un factor de ramificación bajo. Además, Scout implementa una prueba más rigurosa que la que realiza la poda Alfa-Beta.
+
+Finalmente, de acuerdo con los resultados, el algoritmo Negascout demostró ser el más eficiente en términos de tiempo de ejecución, dado que calculó cada nivel del árbol más rápidamente que los demás algoritmos evaluados.
